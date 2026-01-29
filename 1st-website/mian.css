@@ -1,0 +1,41 @@
+HTML {
+    background-color:orange;
+    font-size:25px;
+}
+
+/* typography */
+p {
+    background-color:burlywood;
+    font-size: 30px;
+    /* border is a short hand property for boarder-width border-style border-color*/
+    border: 10px dotted blue; 
+    text-align:right;
+    
+    /*
+        1 value: all sides
+
+        2 value: 1st value = top/
+        bottom, 2nd value = left/right
+
+        4 values: 1st value = top, 2nd 
+        value = right, 3rd = bottom, 4th = left
+     */
+
+    padding: 10px 50px 70px 90px;
+    margin: 50px 50px 50px 90px;
+}
+
+h1{
+    color: #e64242;
+}
+
+.special {
+        background-color:yellowgreen;
+        font-size:50px;
+        border-radius: 100%;
+}
+
+.center-text {
+    text-align:center;
+    padding:20px;
+}
