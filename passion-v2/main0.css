@@ -1,0 +1,33 @@
+HTML {
+    background-color:rgb(255, 255, 255);
+    font-size:50px;
+    text-align:center;
+}
+
+/* typography */
+p {
+    background-color:rgb(233, 184, 227);
+    font-size: 40px;
+    /* border is a short hand property for boarder-width border-style border-color*/
+    border: 15px dotted rgb(255, 255, 255); 
+    text-align:center;
+    
+    /*
+        1 value: all sides
+
+        2 value: 1st value = top/
+        bottom, 2nd value = left/right
+
+        4 values: 1st value = top, 2nd 
+        value = right, 3rd = bottom, 4th = left
+     */
+
+    padding: 50px 50px 70px 90px;
+    margin: 50px 50px 50px 90px;
+}
+{
+    font-size: 40px;
+    /* border is a short hand property for boarder-width border-style border-color*/
+    border: 15px dotted rgb(255, 255, 255); 
+    text-align:center;
+}
