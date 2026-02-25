@@ -1,0 +1,29 @@
+* {
+    box-sizing:border-box;
+}
+
+.main-container {
+    background-color:cadetblue;
+    padding:10px;
+    height:800px;
+
+    display:flex;
+    flex-direction:column;
+}
+
+.top {
+    background-color:gainsboro;
+    height:20%;
+    flex-direction:row;
+    display:flex;
+}
+
+.top-item {
+    background-color:burlywood;
+    width:100%;
+}
+
+.bottom {
+    background-color: darkseagreen;
+    height:80%;
+}

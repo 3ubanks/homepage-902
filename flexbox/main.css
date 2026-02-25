@@ -1,0 +1,57 @@
+* {
+    box-sizing:border-box;
+}
+
+.block {
+    background-color: darkkhaki;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inline {
+    background-color: aquamarine;
+    width: 90px;
+    height: 100px;
+    padding: 10px;
+    margin: 30px;
+    display:inline-block;
+}
+
+.container {
+    background-color: cornflowerblue;
+    padding:20px;
+    height:600px;
+    display:flex;
+
+/* flex-direction will determine the main-axis: 
+    row = horizontal main axis 
+    column = vertical main axis 
+*/
+
+flex-direction:column;
+
+flex-wrap:wrap;
+
+/*justify-content aligns items along the main-axis*/
+    justify-content:space-between;
+
+    /* align-items aligns items along the cross-axis, and is used for non-wrapping flexboxes */
+    align-items:center;
+
+    /* align-contnet aligns items along the cross-axis, and is used for multi-line/wrapping flexboxes*/
+    align-content:flex-end;
+
+    gap: 10px;
+}
+
+.item {
+    background-color: lightblue;
+    padding:10px;
+    border:1px solid;
+    width:100px;
+}
+
+.special {
+    background-color:cornsilk;
+    order:-1;
+}
