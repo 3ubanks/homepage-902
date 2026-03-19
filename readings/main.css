@@ -1,0 +1,26 @@
+* {
+    box-sizing:border-box;
+    background: lightskyblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+
+.img {
+    display: block;
+    margin: 20px auto;
+    transition: transform 0.2s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 
+        0 0 10px rgba(41, 5, 203, 0.6),
+        0 0 20px rgba(126, 14, 130, 0.6),
+        0 0 40px rgba(199, 93, 31, 0.6);
+    transform: scale(1.05);
+}

@@ -25,7 +25,8 @@ p {
     padding: 50px 50px 70px 90px;
     margin: 50px 50px 50px 90px;
 }
-{
+
+P {
     font-size: 40px;
     /* border is a short hand property for boarder-width border-style border-color*/
     border: 15px dotted rgb(255, 255, 255); 

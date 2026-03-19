@@ -1,0 +1,55 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+.container {
+    background: rgb(168, 168, 224);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+,.container.dark {
+    bottom: grey;
+}
+.box {
+    background: rgb(18, 8, 93);
+    width: 100px;
+    height: 100px;
+    animation: spin 4s infinite linear;
+    animation-play-state: paused;
+
+}
+
+.box {
+    background: gray;
+    width: 100px;
+    height: 100px;
+}
+
+.box .dark {
+    background: blue;
+}
+.box.spin {
+    animation: spin 4s infinite linear;
+}
+
+@keyframes spin {
+    0%{
+        rotate: 0;
+        100% {
+            rotate: 350deg;
+        }
+    }
+}
