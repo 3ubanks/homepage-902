@@ -1,0 +1,26 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0a1a3a; 
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hands {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    pointer-events: none;
+
+}

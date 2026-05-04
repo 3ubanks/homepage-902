@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sphere Menu</title>
+
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    font-family: sans-serif;
+}
+
+/* Container */
+.menu {
+    display: flex;
+    gap: 60px;
+}
+
+/* Circles */
+.circle {
+    width: 120px;
+    height: 120px;
+    background: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+
+    /* smooth animation */
+    transition: all 0.3s ease;
+
+    /* subtle base glow */
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+/* Hover effect */
+.circle:hover {
+    transform: translateY(-10px) scale(1.05);
+
+    /* stronger glow */
+    box-shadow:
+        0 0 15px rgba(200,200,200,0.4),
+        0 0 30px rgba(200,200,200,0.2),
+        0 0 60px rgba(200,200,200,0.1);
+}
+</style>
+
+</head>
+<body>
+
+<div class="menu">
+    <a href="page1.html" class="circle">Page 1</a>
+    <a href="page2.html" class="circle">Page 2</a>
+    <a href="page3.html" class="circle">Page 3</a>
+</div>
+
+</body>
+</html>

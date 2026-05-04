@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../animation"
+		},
+		{
+			"path": "../control"
+		},
+		{
+			"path": "../passion-v2"
+		}
+	],
+	"settings": {}
+}
