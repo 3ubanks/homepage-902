@@ -112,7 +112,7 @@ body {
     width: 100px;
     height: 100px;
     
-    /* a good rule of thumb ti remember, si we generally don't want to apply transitions to the hover states */
+    /* a good rule of thumb is to remember, we generally don't want to apply transitions to the hover states */
     transition: background 2s,
                 border-radius 2s,
                 rotate 2s;

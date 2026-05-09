@@ -1,26 +1,71 @@
 * {
     box-sizing:border-box;
+    background: black;
+
 }
 
 body {
     margin: 0;
-    padding: 0;
-    background: #0a1a3a; 
     overflow: hidden;
 }
 
 .container {
-    position: relative;
     width: 100vw;
     height: 100vh;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
 }
 
 .hands {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.hands img {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    pointer-events: none;
 
+    width: 800px;
+
+    transition: transform 2s ease, opacity 2s ease;
+}
+
+.left {
+    position: absolute;
+    left: 50%;
+
+    transform: translate(-100%, -50%);
+}
+
+.right {
+    left: 50%;
+
+    transform: translate(0%, -50%);
+}
+
+/* don't know how to overalp PNG so that both hands can be same size, png not the same size even though they are the same file....*/
+
+.container input:checked ~ .screen .left {
+    transform: translate(-250%, -50%);
+    opacity: 0;
+}
+
+.container input:checked ~ .screen .right {
+    transform: translate(150%, -50%);
+    opacity: 0;
 }
